@@ -1,0 +1,108 @@
+/* Navbar Styling */
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #202022;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+     width: 100%; 
+    z-index: 100; 
+}
+
+.logo p {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.logo p a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.logo-text{
+    font-family: "Shadows into kight";
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 60px;
+} 
+
+.menu a:hover{
+    color: #00BBC9;
+}
+
+/* contact form*/
+
+.contact{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #878787;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #202022;
+    color: #F2F2F2;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  button:hover {
+    background-color: #00747C;
+  }

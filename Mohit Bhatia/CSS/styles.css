@@ -1,0 +1,90 @@
+/*universal*/
+html{
+    background-image: url("/Images/5153829.jpg");
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #202022;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+     width: 100%; 
+    z-index: 100;
+}
+
+.logo p {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.logo p a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.logo-text{
+    font-family: "Shadows into kight";
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 60px;
+} 
+
+.menu a:hover{
+    color: #00BBC9;
+}
+
+/*Main styling*/
+
+.main-content{
+    display: flex;
+    
+}
+
+.profile img{
+    border-radius: 300px;
+    margin-top: 100px;
+    position: relative;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.details p{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    display: block;
+    position: absolute;
+    top: 50%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    color: #202022; 
+    text-transform: capitalize;
+    line-height: 55px;
+    word-spacing: 2px;
+}

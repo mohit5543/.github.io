@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/contact.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Mohit Bhatia</title>
+</head>
+<body>
+
+    <!--Navbar starts here-->
+
+    <nav class="navbar">
+        <div class="logo">
+            <p class="logo-text"><a href="index.html"> Mohit Bhatia</a></p>
+        </div>
+        <ul class="menu">
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Contact form starts here-->
+    <div class="contact">
+        <h2>Contact Form</h2>
+        <form action="your_form_processing_script.php" method="post"> <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+    
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" placeholder="Your message..." required></textarea>
+    
+        <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
